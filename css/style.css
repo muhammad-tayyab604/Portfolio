@@ -96,7 +96,7 @@ span {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 25vw;
 }
 
 
@@ -141,7 +141,7 @@ span {
 }
 
 .about-img img {
-    width: 35vw;
+    width: 90vw;
 }
 
 
@@ -217,6 +217,7 @@ span {
 
 .portfolio h2 {
     margin-bottom: 4rem;
+    text-shadow: 2px 1px 5px #000000;
 }
 
 .portfolio-container {
@@ -264,16 +265,14 @@ span {
 
 .portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
+
 }
 
 .portfolio-layer h4 {
     font-size: 4rem;
 }
 
-.portfolio-layer p {
-    font-size: 1.6rem;
-    margin: .3rem 0 1rem;
-}
+
 
 .portfolio-layer a {
     display: inline-flex;
@@ -288,6 +287,11 @@ span {
 .portfolio-layer a {
     font-size: 2rem;
     color: var(--second-bg-color);
+    transition: .5s ease-in-out;
+}
+
+.portfolio-layer a:hover {
+    color: var(--main-color);
 }
 
 .contact-me a {
@@ -302,7 +306,7 @@ span {
     border-radius: 50%;
     font-size: 10rem;
     color: var(--main-color);
-    margin: 10rem 9rem 0.1rem;
+    margin: 10rem 5rem 0.1rem;
     transition: .5s ease;
 }
 
